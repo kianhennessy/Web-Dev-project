@@ -7,7 +7,7 @@
 
 <header>
     <ul class="topnav">
-        <li><a href="#home">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="right"><a href="register.php">Sign up</a></li>

@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* Nav Bar */
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -37,4 +38,110 @@ ul.topnav li.right {
 @media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {float: none;}
+}
+
+/* Footer */
+.search-text {
+    background-color: #272d33;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.search-text .input-search {
+    height:45px;
+    width:40%;
+    padding-left:20px;
+    color:#333;
+}
+
+.search-text .btn-search {
+    background: #3366ff;
+    border:none;
+    color:#FFF;
+    height: 45px;
+    width: 80px;
+}
+
+.search-text h4 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #333;
+    padding:0px 0px;
+}
+
+.menutxt {
+    color: #FFF;
+    font-weight: bold;
+    border-bottom: 1px solid #c7c7c7;
+    padding:10px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.address li a , .menu li a {
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li {
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover {
+    color: #3366ff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.address .fa {
+    color: #3366ff;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    z-index: 2;
+    line-height: 83px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+body, div, form, input, select, textarea, label {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3366ff;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
 }
