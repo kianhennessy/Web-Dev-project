@@ -8,8 +8,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <span class="logo"><h1>Kian Hennessy Photography</h1><a href="index.html"></a></span>
+                <a href="index.html"><img src=""></a></span>
             </div>
+
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <ul class="menu">
                     <!-- Footer navigation links-->
