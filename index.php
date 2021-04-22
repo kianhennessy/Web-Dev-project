@@ -29,7 +29,7 @@
             <img src="imgs/" class="slideimg">
         </div>
     </div>
-    <script src="slide.js"></script>
+    <script src="scripts/slide.js"></script>
 </body>
 
 <footer>

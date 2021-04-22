@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue
+}
+
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+
+table tr td:last-child{
+    width: 120px;
+}
+
+.fa-eye{
+    color: dodgerblue;
+}
+
+.fa-pencil{
+    color: forestgreen;
+}
+
+.fa-trash{
+    color: red;
+}
+
