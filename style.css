@@ -14,6 +14,9 @@ ul.topnav {
 ul.topnav li {
     float: left;
 }
+li + li {
+    margin-top: 2%;
+}
 
 ul.topnav li a {
     display: block;
@@ -22,6 +25,7 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+
 }
 
 ul.topnav li a:hover:not(.active) {
@@ -75,7 +79,7 @@ footer {
     padding:0px 0px;
     position: absolute;
     width: 100%;
-    bottom: 0px;
+    bottom: -68px;
 }
 
 .menutxt {
@@ -140,7 +144,7 @@ body, div, form, input, select, textarea, label {
     line-height: 22px;
 }
 
-button {
+.button {
     width: 150px;
     padding: 10px;
     border: none;
@@ -150,6 +154,30 @@ button {
     color: #fff;
     cursor: pointer;
     text-align: center;
+}
+
+/* shop grid */
+.shopwrapper{
+    display: grid;
+
+}
+
+
+
+.homeshopimg{
+    margin-left: 70%;
+}
+
+.homeshopbutton{
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    font-weight: bold;
 }
 
 /* Account */

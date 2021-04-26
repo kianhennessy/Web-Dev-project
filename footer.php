@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="index.html"><img src=""></a></span>
+                <a href="index.html"><img src="imgs/KHPP.png"></a></span>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-12">
@@ -20,15 +20,15 @@
                     </li>
 
                     <li>
+                        <a href="shop/shoppingcart/index.php">Shop</a>
+                    </li>
+
+                    <li>
                         <a href="login.php">Log in</a>
                     </li>
 
                     <li>
                         <a href="register.php">Sign up</a>
-                    </li>
-
-                    <li>
-                        <a href="welcome.php">Account</a>
                     </li>
                 </ul>
             </div>

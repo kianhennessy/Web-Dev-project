@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 <div class="logindiv">
     <h2>Login</h2>
-    <p>Please fill in your credentials to login.</p>
+    <p>Please enter your credentials to login.</p>
 
     <?php
     if(!empty($login_err)){
@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <div class="form-group">
-            <label>Username</label>
+            <label>Email</label>
             <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
             <span class="invalid-feedback"><?php echo $username_err; ?></span>
         </div>
