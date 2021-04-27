@@ -16,7 +16,7 @@ if (isset($_POST["id"]) && !empty($_POST["id"])) {
             header("location: crudindex.php");
             exit();
         } else {
-            echo "Something went wrong (✖╭╮✖). Please try again later.";
+            echo "Something went wrong. Please try again later.";
         }
     }
 

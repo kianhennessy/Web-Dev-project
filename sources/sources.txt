@@ -1,0 +1,5 @@
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php#:~:text=CRUD%20is%20an%20acronym%20for,basic%20data%20manipulation%20for%20database.&text=In%20this%20tutorial%20we%27ll,in%20all%20of%20our%20example.
+
+https://codeshack.io/shopping-cart-system-php-mysql/
+
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
