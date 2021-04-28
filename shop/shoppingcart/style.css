@@ -213,7 +213,7 @@ main > .product form input[type="number"] {
     border-radius: 5px;
 }
 main > .product form input[type="submit"] {
-    background: #4e5c70;
+    background: green;
     border: 0;
     color: #FFFFFF;
     width: 400px;
@@ -326,7 +326,7 @@ main .cart .buttons input[type="submit"] {
     margin-left: 5px;
     padding: 12px 20px;
     border: 0;
-    background: #4e5c70;
+    background: green;
     color: #FFFFFF;
     font-size: 14px;
     font-weight: bold;
